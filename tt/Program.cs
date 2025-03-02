@@ -5,6 +5,6 @@ public sealed class Program
     {
         Console.WriteLine("Modyfikacja pierwsza.");
         Console.WriteLine("Modyfikacja druga.");
-
+        Console.WriteLine("Modyfikacja trzecia.");
     }
 }
