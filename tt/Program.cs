@@ -6,9 +6,13 @@ public sealed class Program
         Console.WriteLine("Modyfikacja pierwsza.");
         Console.WriteLine("Modyfikacja druga.");
         Console.WriteLine("Modyfikacja trzecia.");
+
+        int[] numbers = [12, 12, 23, 232];
+
+        Console.WriteLine(Average(numbers));
     }
 
-    public int Average(int[] ints)
+    public static int Average(int[] ints)
     {
         return (int)ints.Average();
     }
