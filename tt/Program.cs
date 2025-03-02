@@ -8,8 +8,6 @@ public sealed class Program
         Console.WriteLine("Modyfikacja trzecia.");
     }
 
-    public int Average(int[] ints)
-    {
-        return (int)ints.Average();
-    }
+    public int Average(int[] ints) => (int) ints.Average();
+  
 }
