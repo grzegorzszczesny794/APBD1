@@ -10,6 +10,7 @@ public sealed class Program
 
     public int Average(int[] ints)
     {
-        return (int)ints.Average();
+        return    (int)
+            ints.Average();
     }
 }
