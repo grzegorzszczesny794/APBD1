@@ -7,4 +7,9 @@ public sealed class Program
         Console.WriteLine("Modyfikacja druga.");
         Console.WriteLine("Modyfikacja trzecia.");
     }
+
+    public int Average(int[] ints)
+    {
+        return (int)ints.Average();
+    }
 }
